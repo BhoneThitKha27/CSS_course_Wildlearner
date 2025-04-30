@@ -1,0 +1,30 @@
+/* Universal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Type selector */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Class selector */
+.main-title {
+  color: navy;
+}
+
+/* Class selector */
+.highlight {
+  background-color: yellow;
+}
+
+/* ID selector */
+#unique-box {
+  border: 2px solid red;
+}
+
+/* Descendant selector */
+ul li {
+  color: green;
+}
