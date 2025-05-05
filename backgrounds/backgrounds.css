@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+.solid-bg {
+  background-color: #ffcc00;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.image-bg {
+  background-image: url("https://via.placeholder.com/300x100");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.repeat-bg {
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  padding: 30px;
+}

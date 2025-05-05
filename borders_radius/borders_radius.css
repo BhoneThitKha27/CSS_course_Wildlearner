@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background-color: #fafafa;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+.box {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 200px;
+  text-align: center;
+  background-color: #e0f7fa;
+}
+
+.solid {
+  border: 2px solid teal;
+}
+
+.dashed {
+  border: 2px dashed purple;
+}
+
+.rounded {
+  border: 2px solid orange;
+  border-radius: 15px;
+}

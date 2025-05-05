@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+/* Overflow */
+.overflow-box {
+  width: 200px;
+  height: 100px;
+  border: 2px solid #ccc;
+  padding: 10px;
+  overflow: auto;
+  margin-bottom: 2rem;
+}
+
+/* Z-Index Demo */
+.zindex-container {
+  position: relative;
+  height: 150px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  padding: 10px;
+}
+
+.box1 {
+  background-color: rgba(255, 99, 71, 0.9);
+  z-index: 1;
+  left: 30px;
+}
+
+.box2 {
+  background-color: rgba(60, 179, 113, 0.9);
+  z-index: 2;
+  left: 60px;
+}
+
+.box3 {
+  background-color: rgba(30, 144, 255, 0.9);
+  z-index: 3;
+  left: 90px;
+}

@@ -1,0 +1,15 @@
+h1 {
+  color: crimson; /* Named color */
+}
+
+.hex {
+  color: #3498db; /* Hex code */
+}
+
+.rgb {
+  color: rgb(46, 204, 113); /* RGB */
+}
+
+.rgba {
+  color: rgba(155, 89, 182, 0.6); /* RGBA */
+}

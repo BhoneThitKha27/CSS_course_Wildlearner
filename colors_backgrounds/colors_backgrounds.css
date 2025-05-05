@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+.named {
+  color: crimson;
+}
+
+.hex {
+  color: #1e90ff;
+}
+
+.rgb {
+  color: rgb(34, 139, 34);
+}
+
+.bg-box {
+  background-color: lightyellow;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  margin-top: 1rem;
+}

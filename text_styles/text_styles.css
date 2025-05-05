@@ -1,0 +1,30 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  color: darkslateblue;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.styled-text {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #444;
+  margin: 1rem 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: darkgreen;
+}
+
+.centered {
+  text-align: center;
+  color: #555;
+}

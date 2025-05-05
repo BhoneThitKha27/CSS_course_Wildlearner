@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  padding: 3rem;
+  position: relative;
+  min-height: 200vh;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+div {
+  padding: 20px;
+  margin: 20px 0;
+  width: 200px;
+  color: white;
+}
+
+.static-box {
+  background-color: #90caf9;
+  position: static;
+}
+
+.relative-box {
+  background-color: #64b5f6;
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+
+.absolute-box {
+  background-color: #42a5f5;
+  position: absolute;
+  top: 150px;
+  left: 250px;
+}
+
+.fixed-box {
+  background-color: #1e88e5;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

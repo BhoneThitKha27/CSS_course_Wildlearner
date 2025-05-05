@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* You can try: flex-start, center, flex-end, space-around, space-evenly */
+  border: 2px dashed #555;
+  padding: 10px;
+}
+
+.item {
+  background-color: #03a9f4;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  flex: 0 0 auto;
+}

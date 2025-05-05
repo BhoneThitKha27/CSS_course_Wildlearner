@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.box {
+  padding: 10px;
+  border: 2px solid #000;
+  background-color: #ffe082;
+  margin: 10px;
+}
+
+.inline {
+  display: inline;
+  background-color: #ffcc80;
+}
+
+.block {
+  display: block;
+  background-color: #ffb74d;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: #ffa726;
+}
